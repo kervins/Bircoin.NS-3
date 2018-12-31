@@ -45,9 +45,9 @@ main (int argc, char *argv[])
 {
 #ifdef NS3_MPI
   bool nullmsg = false;
-  bool unsolicited = false;
-  bool relayNetwork = false;
-  bool unsolicitedRelayNetwork = false;
+  bool unsolicited = true;
+  bool relayNetwork = true;
+  bool unsolicitedRelayNetwork = true;
   double ud = 0;
   double r = 0;
   enum Cryptocurrency  cryptocurrency = BITCOIN;
