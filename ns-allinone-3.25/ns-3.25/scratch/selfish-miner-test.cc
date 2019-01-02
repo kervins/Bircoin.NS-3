@@ -48,7 +48,7 @@ main (int argc, char *argv[])
   bool unsolicited = true;
   bool relayNetwork = true;
   bool unsolicitedRelayNetwork = true;
-  double ud = 0;
+  double ud = 2;
   double r = 0;
   enum Cryptocurrency  cryptocurrency = BITCOIN;
   double tStart = get_wall_time(), tFinish, tSimStart, tSimFinish;
